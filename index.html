@@ -5,8 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+  <!-- local stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,23 +22,40 @@
   </style>
 </head>
 <body>
+  <img src="images/pattern-bg.svg" class="ptrn-bg" alt="">
+  <img src="images/pattern-quotes.svg" class="ptrn-quotes" alt="">
+  <img src="images/pattern-curve.svg" class="ptrn-curve" alt="">
+  <button type="button" class="next" name="next"><img src="images/icon-next.svg" alt=""></button>
+  <button type="button" class="prev" name="prev"><img src="images/icon-prev.svg" alt=""></button>
+  <div class="card1">
+    <div class="first-person">
+      <p class="quote1">“ I’ve been interested in coding for a while but never taken the jump, until now.
+      I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+      excited about the future. ”</p>
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+      <h1 class="name1">Tanya Sinclair
+      <span class="post1">UX Engineer</span></h1>
+    </div>
+    <div class="image1">
+      <img src="images/image-tanya.jpg" class="tanya" alt="">
+    </div>
+  </div>
+  <div class="card2">
+    <div class="second-person">
+      <p class="quote2">“ If you want to lay the best foundation possible I’d recommend taking this course.
+      The depth the instructors go into is incredible. I now feel so confident about
+      starting up as a professional developer. ”</p>
 
-  Tanya Sinclair
-  UX Engineer
+      <h1 class="name2">John Tarkpor
+      <span class="post2">Junior Front-end Developer</span></h1>
+    </div>
+    <div class="image2">
+      <img src="images/image-john.jpg" class="john" alt="">
+    </div>
+  </div>
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
-
-  John Tarkpor
-  Junior Front-end Developer
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
